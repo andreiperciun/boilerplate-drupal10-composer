@@ -1,0 +1,22 @@
+uuid: 02d781e0-d3d2-48ff-9331-49ed0628c3d2
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - ps_tiger
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: ps_tiger_help
+theme: ps_tiger
+region: sidebar_first
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

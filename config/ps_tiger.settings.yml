@@ -1,0 +1,27 @@
+_core:
+  default_config_hash: fgFT6hZ08BoHb4HRo1AzUvb8YqeTuvQ7uocwwBnfM9o
+ps_base_toggle_logo: 1
+ps_base_logo_sizing_method: default
+ps_base_logo_custom_height: 175
+ps_base_toggle_site_name: 1
+ps_base_toggle_site_slogan: 0
+ps_base_toggle_site_slogan_mode: prefix
+ps_base_toggle_main_menu: 1
+ps_base_toggle_utility_menu: 1
+ps_base_toggle_breadcrumb: 1
+ps_base_flavor_picker: flavor1
+ps_base_font_pairing: fontset1
+ps_base_full_width_search_box: 0
+ps_base_pu_logo_swap: 0
+ps_base_main_menu_configuration: horizontal_drop
+ps_base_mega_menu_column_flow: horizontal_mega_menu_fixed
+ps_base_main_menu_sidebar: 1
+ps_base_main_menu_sidebar_start_level: '2'
+ps_base_sticky_menu: 0
+ps_base_utility_menu_sidebar: 0
+ps_base_jump_link_menu_position: vertical
+ps_base_layout_block_padding: medium
+ps_base_layout_enable_section_spacing_control: 1
+ps_base_layout_above_section_spacing: none
+ps_base_layout_below_section_spacing: medium
+ps_base_breadcrumb_show_page_title: 0

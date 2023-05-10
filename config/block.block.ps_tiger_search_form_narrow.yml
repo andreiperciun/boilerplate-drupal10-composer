@@ -1,0 +1,23 @@
+uuid: 8abc05fe-373f-4925-9dbe-0015f4624ab5
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - ps_tiger
+_core:
+  default_config_hash: yEBET0cqDbk8dkWzaJw-8CKft0961VBflsISoSR6Lj8
+id: ps_tiger_search_form_narrow
+theme: ps_tiger
+region: primary_menu
+weight: -4
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (narrow)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }
