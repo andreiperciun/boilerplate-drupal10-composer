@@ -155,7 +155,7 @@ $settings['skip_permissions_hardening'] = TRUE;
 # $settings['config_exclude_modules'] = ['devel', 'stage_file_proxy'];
 
 // Docksal DB connection settings.
-$databases['default']['default'] = array (
+$databases['default']['default'] = array(
   'database' => getenv('MYSQL_DATABASE'),
   'username' => getenv('MYSQL_USER'),
   'password' => getenv('MYSQL_PASSWORD'),
@@ -184,3 +184,5 @@ if (PHP_SAPI !== 'cli') {
     $_SERVER['SERVER_PORT'] = 443;
   }
 }
+
+$settings['config_sync_directory'] = '../config';
