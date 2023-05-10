@@ -13,7 +13,6 @@ set -e
 
 # PROJECT_ROOT and DOCROOT are set as env variables in cli
 SITE_DIRECTORY="default"
-DOCROOT="web"
 DOCROOT_PATH="${PROJECT_ROOT}/${DOCROOT}"
 SITEDIR_PATH="${DOCROOT_PATH}/sites/${SITE_DIRECTORY}"
 
@@ -58,6 +57,10 @@ composer_install ()
 {
 	cd "$PROJECT_ROOT"
 	echo-green "Installing dependencies..."
+	export COMPOSER_PROCESS_TIMEOUT=2000
+	export COMPOSER_MEMORY_LIMIT=-1
+	# composer clear-cache --no-interaction
+	# composer install --no-interaction
 	composer install
 }
 
