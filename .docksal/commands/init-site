@@ -80,6 +80,7 @@ site_install ()
 	cd "$DOCROOT_PATH"
 
 	echo-green "Installing Drupal..."
+	drush status
 	drush cim -y
 }
 
