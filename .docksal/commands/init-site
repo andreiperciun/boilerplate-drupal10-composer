@@ -85,7 +85,7 @@ site_install ()
 
 	echo-green "Installing Drupal..."
 	drush status
-	drush cim -y
+	drush config:import -y --debug
 }
 
 #-------------------------- END: Functions --------------------------------
