@@ -20,11 +20,11 @@ jobs:
       - name: Install boilerplate
         run: fin init
       - name: Site install
-        run: fin init
-        with:
-          context: .
-          cache-from: type=gha
-          cache-to: type=gha,mode=max
+        run: fin init-site
+#        with:
+#          context: .
+#          cache-from: type=gha
+#          cache-to: type=gha,mode=max
       - name: Test boilerplate
         run: fin test
       - name: fin config
