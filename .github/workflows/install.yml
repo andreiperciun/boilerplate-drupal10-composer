@@ -19,7 +19,13 @@ jobs:
         uses: actions/checkout@v3
       - name: Install boilerplate
         run: fin init
+      - name: Site install
+        run: fin init
+        with:
+          context: .
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
       - name: Test boilerplate
         run: fin test
-      # - name: fin config
-      #   run: fin config
+      - name: fin config
+        run: fin config
