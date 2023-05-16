@@ -1,14 +1,14 @@
-uuid: b5c254b1-158d-49e2-9f6d-537bf2b5f3f0
+uuid: 0d7c49dd-21ba-4af8-a8c4-29951849f678
 langcode: en
 status: true
 dependencies:
   theme:
-    - claro
+    - stark
 _core:
-  default_config_hash: fNwDdW063tk_ktzSWzZVeQS9wzvLooVO280BQ9WrsIs
-id: claro_page_title
-theme: claro
-region: header
+  default_config_hash: Oh72CHUkp6cj6dbrXMK2hzCsM05w9cHVoD22rMLQUfk
+id: stark_page_title
+theme: stark
+region: content
 weight: -30
 provider: null
 plugin: page_title_block

@@ -1,15 +1,15 @@
-uuid: f323f3a1-ad43-4fcb-ba0c-f28e53b0eb6d
+uuid: bc2e2740-f845-48b9-9149-680e4e5f3c69
 langcode: en
 status: true
 dependencies:
   theme:
-    - olivero
+    - stark
 _core:
-  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
-id: olivero_primary_admin_actions
-theme: olivero
-region: highlighted
-weight: -5
+  default_config_hash: ABoKnlk20KHqZRw_2Qr4EvaFvH4lnQ2nuhunHeE1JIU
+id: stark_local_actions
+theme: stark
+region: content
+weight: -10
 provider: null
 plugin: local_actions_block
 settings:

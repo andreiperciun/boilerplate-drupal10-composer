@@ -1,11 +1,14 @@
+_core:
+  default_config_hash: l58O_yEXSo-SeJi19LXdzTU1tNJG3lmnIhCitRkM1tk
 langcode: en
-name: 'The Program in Applied & Computational Mathematics'
-mail: pacmweb@pacm.princeton.edu
+uuid: 51c772bd-9f95-4f9d-8004-ec5b2fe27d51
+name: 'My Drupal 9 Site'
+mail: admin@example.com
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /node
+  front: /user/login
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: en

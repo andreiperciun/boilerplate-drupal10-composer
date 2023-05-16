@@ -1,15 +1,15 @@
-uuid: c2c63958-bd92-4d20-9366-391c6e4d7377
+uuid: f464fb1e-5787-4fc4-8d51-d6b4e98b2d79
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - olivero
+    - stark
 _core:
-  default_config_hash: n_nlgjggHVfQt2H__zvLOKB2YtjPDbQ5tHijF9LE1aM
-id: olivero_site_branding
-theme: olivero
+  default_config_hash: sG8t_FghbUscJ-GrnQ8zs_vx5YM4bJCfntrK-J5HcAY
+id: stark_branding
+theme: stark
 region: header
 weight: 0
 provider: null
@@ -21,5 +21,5 @@ settings:
   provider: system
   use_site_logo: true
   use_site_name: true
-  use_site_slogan: false
+  use_site_slogan: true
 visibility: {  }
